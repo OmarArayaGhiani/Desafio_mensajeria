@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.contacts {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #BEC1BB;
+}
+
+.networking {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.networking div {
+    text-align: center;
+}
+
+.networking img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.networking h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.networking p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contacts img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #BEC1BB;
+}
+
+.box {
+    border: 1px solid #BEC1BB;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.name  {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.status {
+    color: #828485;
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 300;
+}
+
+.icons i {
+    margin: 10px;
+    color: #828485;
+    font-size: 18px;
+}
+
+.center {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newChat {
+    padding: 15px 50px;
+    background-color: #A491D2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newChat:hover {
+    background-color: #CDC3E6;
+}
+
+.newChat:active {
+    background-color: #D4DCFF;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80vh;
+    overflow-y: scroll;
+}
+
+.align {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.chats p {
+    padding-left: 30px;
+}
+
